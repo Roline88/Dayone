@@ -1,0 +1,332 @@
+
+======================================================================
+CLINICAL TRIAGE SYSTEM - PATIENT SIMULATION DEMO
+Using traffic light classification (Green/Yellow/Red)
+======================================================================
+
+======================================================================
+PATIENT #1 - TRIAGE REPORT
+======================================================================
+
+VITAL SIGNS:
+  BP: 117/82 mmHg
+  HR: 77 bpm
+  Temp: 37.1°C
+  RR: 18 breaths/min
+  Blood Glucose: 96 mg/dL
+  pH: 7.41
+  HCO3: 24 mEq/L
+
+FLUID TESTS:
+  Urine Protein: 0.02 g/dL
+  Urine Glucose: 0.0 g/dL
+  Hemoglobin: 13.7 g/dL
+  Hematocrit: 43%
+  Lactate: 0.6 mmol/L
+
+TRIAGE OUTCOME: [YELLOW] Moderate Risk: Urgent Referral
+Risk Score: 0.96/1.0
+Action: Urgent referral - monitor closely
+
+PARAMETERS OUT OF RANGE:
+  OUT OF RANGE - blood_ph: 7.41
+     Allowed Range: {'min': 7.25, 'max': 7.4}
+
+======================================================================
+
+
+======================================================================
+PATIENT #2 - TRIAGE REPORT
+======================================================================
+
+VITAL SIGNS:
+  BP: 91/61 mmHg
+  HR: 158 bpm
+  Temp: 40.5°C
+  RR: 30 breaths/min
+  Blood Glucose: 409 mg/dL
+  pH: 7.14
+  HCO3: 12 mEq/L
+
+FLUID TESTS:
+  Urine Protein: 0.91 g/dL
+  Urine Glucose: 1.9 g/dL
+  Hemoglobin: 8.3 g/dL
+  Hematocrit: 21%
+  Lactate: 5.6 mmol/L
+
+TRIAGE OUTCOME: [RED] High Risk: Emergency Transport
+Risk Score: 0.46/1.0
+Action: Emergency transport - critical condition
+
+PARAMETERS OUT OF RANGE:
+  OUT OF RANGE - heart_rate: 158
+     Allowed Range: {'min': 40, 'max': 140}
+  OUT OF RANGE - temperature: 40.5
+     Allowed Range: {'min': 35.5, 'max': 39.5}
+  OUT OF RANGE - blood_glucose: 409
+     Allowed Range: {'min': 40, 'max': 400}
+  OUT OF RANGE - bicarbonate: 12
+     Allowed Range: {'min': 15, 'max': 30}
+  OUT OF RANGE - urine_protein: 0.91
+     Allowed Range: {'max': 0.3}
+  OUT OF RANGE - urine_glucose: 1.9
+     Allowed Range: {'max': 0.0}
+  OUT OF RANGE - blood_lactate: 5.6
+     Allowed Range: {'max': 4.0}
+
+======================================================================
+
+
+======================================================================
+PATIENT #3 - TRIAGE REPORT
+======================================================================
+
+VITAL SIGNS:
+  BP: 98/60 mmHg
+  HR: 158 bpm
+  Temp: 38.6°C
+  RR: 39 breaths/min
+  Blood Glucose: 430 mg/dL
+  pH: 7.24
+  HCO3: 12 mEq/L
+
+FLUID TESTS:
+  Urine Protein: 0.93 g/dL
+  Urine Glucose: 2.2 g/dL
+  Hemoglobin: 7.2 g/dL
+  Hematocrit: 22%
+  Lactate: 6.7 mmol/L
+
+TRIAGE OUTCOME: [RED] High Risk: Emergency Transport
+Risk Score: 0.46/1.0
+Action: Emergency transport - critical condition
+
+PARAMETERS OUT OF RANGE:
+  OUT OF RANGE - heart_rate: 158
+     Allowed Range: {'min': 40, 'max': 140}
+  OUT OF RANGE - respiratory_rate: 39
+     Allowed Range: {'min': 8, 'max': 30}
+  OUT OF RANGE - blood_glucose: 430
+     Allowed Range: {'min': 40, 'max': 400}
+  OUT OF RANGE - bicarbonate: 12
+     Allowed Range: {'min': 15, 'max': 30}
+  OUT OF RANGE - urine_protein: 0.93
+     Allowed Range: {'max': 0.3}
+  OUT OF RANGE - urine_glucose: 2.2
+     Allowed Range: {'max': 0.0}
+  OUT OF RANGE - blood_lactate: 6.7
+     Allowed Range: {'max': 4.0}
+
+======================================================================
+
+
+======================================================================
+PATIENT #4 - TRIAGE REPORT
+======================================================================
+
+VITAL SIGNS:
+  BP: 94/55 mmHg
+  HR: 154 bpm
+  Temp: 40.3°C
+  RR: 36 breaths/min
+  Blood Glucose: 365 mg/dL
+  pH: 7.18
+  HCO3: 16 mEq/L
+
+FLUID TESTS:
+  Urine Protein: 0.66 g/dL
+  Urine Glucose: 2.2 g/dL
+  Hemoglobin: 7.4 g/dL
+  Hematocrit: 20%
+  Lactate: 5.9 mmol/L
+
+TRIAGE OUTCOME: [RED] High Risk: Emergency Transport
+Risk Score: 0.46/1.0
+Action: Emergency transport - critical condition
+
+PARAMETERS OUT OF RANGE:
+  OUT OF RANGE - diastolic_bp: 55
+     Allowed Range: {'min': 60, 'max': 120}
+  OUT OF RANGE - heart_rate: 154
+     Allowed Range: {'min': 40, 'max': 140}
+  OUT OF RANGE - temperature: 40.3
+     Allowed Range: {'min': 35.5, 'max': 39.5}
+  OUT OF RANGE - respiratory_rate: 36
+     Allowed Range: {'min': 8, 'max': 30}
+  OUT OF RANGE - urine_protein: 0.66
+     Allowed Range: {'max': 0.3}
+  OUT OF RANGE - urine_glucose: 2.2
+     Allowed Range: {'max': 0.0}
+  OUT OF RANGE - blood_lactate: 5.9
+     Allowed Range: {'max': 4.0}
+
+======================================================================
+
+
+======================================================================
+PATIENT #5 - TRIAGE REPORT
+======================================================================
+
+VITAL SIGNS:
+  BP: 86/57 mmHg
+  HR: 137 bpm
+  Temp: 39.1°C
+  RR: 32 breaths/min
+  Blood Glucose: 352 mg/dL
+  pH: 7.24
+  HCO3: 12 mEq/L
+
+FLUID TESTS:
+  Urine Protein: 0.56 g/dL
+  Urine Glucose: 1.2 g/dL
+  Hemoglobin: 8.9 g/dL
+  Hematocrit: 23%
+  Lactate: 8.0 mmol/L
+
+TRIAGE OUTCOME: [RED] High Risk: Emergency Transport
+Risk Score: 0.46/1.0
+Action: Emergency transport - critical condition
+
+PARAMETERS OUT OF RANGE:
+  OUT OF RANGE - systolic_bp: 86
+     Allowed Range: {'min': 90, 'max': 180}
+  OUT OF RANGE - diastolic_bp: 57
+     Allowed Range: {'min': 60, 'max': 120}
+  OUT OF RANGE - respiratory_rate: 32
+     Allowed Range: {'min': 8, 'max': 30}
+  OUT OF RANGE - bicarbonate: 12
+     Allowed Range: {'min': 15, 'max': 30}
+  OUT OF RANGE - urine_protein: 0.56
+     Allowed Range: {'max': 0.3}
+  OUT OF RANGE - urine_glucose: 1.2
+     Allowed Range: {'max': 0.0}
+  OUT OF RANGE - blood_lactate: 8.0
+     Allowed Range: {'max': 4.0}
+
+======================================================================
+
+======================================================================
+SUMMARY
+======================================================================
+Total Patients: 5
+[GREEN] Low Risk: 0 (0.0%)
+[YELLOW] Moderate Risk: 1 (20.0%)
+[RED] High Risk: 4 (80.0%)
+======================================================================
+
+
+======================================================================
+CLINICAL TRIAGE SYSTEM - SPECIFIC SCENARIOS
+======================================================================
+
+[SCENARIO 1: HEALTHY PATIENT]
+
+======================================================================
+PATIENT #1 - TRIAGE REPORT
+======================================================================
+
+VITAL SIGNS:
+  BP: 135/80 mmHg
+  HR: 76 bpm
+  Temp: 37.1°C
+  RR: 18 breaths/min
+  Blood Glucose: 96 mg/dL
+  pH: 7.38
+  HCO3: 23 mEq/L
+
+FLUID TESTS:
+  Urine Protein: 0.02 g/dL
+  Urine Glucose: 0.0 g/dL
+  Hemoglobin: 14.4 g/dL
+  Hematocrit: 41%
+  Lactate: 0.9 mmol/L
+
+TRIAGE OUTCOME: [GREEN] Low Risk: Routine Care
+Risk Score: 1.00/1.0
+Action: Routine care - stable patient
+
+All parameters within normal range
+
+======================================================================
+
+
+[SCENARIO 2: MODERATE RISK PATIENT]
+
+======================================================================
+PATIENT #2 - TRIAGE REPORT
+======================================================================
+
+VITAL SIGNS:
+  BP: 152/92 mmHg
+  HR: 100 bpm
+  Temp: 37.6°C
+  RR: 22 breaths/min
+  Blood Glucose: 191 mg/dL
+  pH: 7.38
+  HCO3: 20 mEq/L
+
+FLUID TESTS:
+  Urine Protein: 0.21 g/dL
+  Urine Glucose: 0.4 g/dL
+  Hemoglobin: 11.6 g/dL
+  Hematocrit: 38%
+  Lactate: 2.2 mmol/L
+
+TRIAGE OUTCOME: [RED] High Risk: Emergency Transport
+Risk Score: 0.92/1.0
+Action: Emergency transport - critical condition
+
+PARAMETERS OUT OF RANGE:
+  OUT OF RANGE - urine_glucose: 0.4
+     Allowed Range: {'max': 0.0}
+
+======================================================================
+
+
+[SCENARIO 3: CRITICAL PATIENT]
+
+======================================================================
+PATIENT #3 - TRIAGE REPORT
+======================================================================
+
+VITAL SIGNS:
+  BP: 98/50 mmHg
+  HR: 155 bpm
+  Temp: 39.0°C
+  RR: 37 breaths/min
+  Blood Glucose: 435 mg/dL
+  pH: 7.17
+  HCO3: 13 mEq/L
+
+FLUID TESTS:
+  Urine Protein: 0.54 g/dL
+  Urine Glucose: 1.1 g/dL
+  Hemoglobin: 7.8 g/dL
+  Hematocrit: 24%
+  Lactate: 5.2 mmol/L
+
+TRIAGE OUTCOME: [RED] High Risk: Emergency Transport
+Risk Score: 0.38/1.0
+Action: Emergency transport - critical condition
+
+PARAMETERS OUT OF RANGE:
+  OUT OF RANGE - diastolic_bp: 50
+     Allowed Range: {'min': 60, 'max': 120}
+  OUT OF RANGE - heart_rate: 155
+     Allowed Range: {'min': 40, 'max': 140}
+  OUT OF RANGE - respiratory_rate: 37
+     Allowed Range: {'min': 8, 'max': 30}
+  OUT OF RANGE - blood_glucose: 435
+     Allowed Range: {'min': 40, 'max': 400}
+  OUT OF RANGE - bicarbonate: 13
+     Allowed Range: {'min': 15, 'max': 30}
+  OUT OF RANGE - urine_protein: 0.54
+     Allowed Range: {'max': 0.3}
+  OUT OF RANGE - urine_glucose: 1.1
+     Allowed Range: {'max': 0.0}
+  OUT OF RANGE - blood_lactate: 5.2
+     Allowed Range: {'max': 4.0}
+
+======================================================================
+
